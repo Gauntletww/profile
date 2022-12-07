@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=PT+Sans+Narrow&family=Play&family=Sono:wght@300&family=Supermercado+One&family=Teko&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F0F8FF;
+}
+.container{
+    height: fit-content;
+    width: 400px;
+    
+    background-color: #dadaee;
+    border-radius: 25px;
+}
+
+.stickers {
+border-radius: 25px; 
+display: flex;
+justify-content: space-between;
+    padding: 1.5rem 2rem;
+   
+}
+.stickers > *{
+    font-size: 1.3rem;
+    color: #595961;
+}
+.profile{
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+}
+.fa-circle-user {
+    font-size: 7rem;
+    
+}
+.profile span{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    font-family: 'Audiowide', cursive;
+}
+.profile p{
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    color: red;
+    font-weight: bold;
+    font-family: 'Play', sans-serif;
+}
+.profile h4 {
+    
+    line-height: 1.5rem;
+    margin: 0.8rem 1rem;
+}
+.profile button{
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 85%;
+     font-size: 1rem;
+    font-weight: bold;
+    
+}
+.images {
+    margin: 1.3rem 0;
+    
+}
+.images section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.icons div{
+height: 50px;
+width: 40px;
+
+}
+.numbers span{
+    font-size: 1.1rem;
+    font-weight: bold;
+     
+    font-family: 'Audiowide', cursive;
+}
+.text span {
+    font-size: 1.3rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.fb{
+background-image: url("./fb.png");
+background-repeat: no-repeat;
+    background-size: contain;
+    }
+    .insta{
+background-image: url("./insta.png");
+background-repeat: no-repeat;
+    background-size: contain;
+    }
+    .tweet{
+background-image: url("./tweet.png");
+background-repeat: no-repeat;
+    background-size: contain;
+    }
+.fa-heart:hover,.fa-heart:active{
+    color: red;
+}
